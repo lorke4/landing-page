@@ -51,7 +51,7 @@ button {
 
 .header-right {
     display: flex;
-    
+    gap: 16px;
     font-size: 18px;
 }
 
@@ -76,14 +76,13 @@ button {
     display: flex;
     flex-basis: 400px;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     text-align: left;
-    /* flex-shrink: 2; */
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .hero-right {
     display: flex;
-    /* flex-shrink: 1; */
     margin: 0 90px 0 20px;
 }
 
@@ -103,10 +102,12 @@ button {
 .information {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-content: center;
     flex-wrap: wrap;
     text-align: center;
-    margin
+    padding-top: 20px;
+    padding-right: 20px;
 }
 
 .cards img {
@@ -115,6 +116,7 @@ button {
 }
 
 .cards {
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -126,7 +128,7 @@ button {
     flex-direction: column;
     flex-wrap: wrap;
     /* align-items: center; */
-    margin: 0 16px;
+    margin: 10px 16px;
     text-align: center;
 }
 
