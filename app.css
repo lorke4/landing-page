@@ -40,9 +40,6 @@ blockquote {
     color: #1f2937;
 }
 
-figcaption {
-    text-align: right;
-}
 
 /* -----header------ */
 
@@ -153,14 +150,25 @@ figcaption {
 /* ------Quote------ */
 
 .quote {
-    text-align: center;
+    /* text-align: center; */
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
+    align-content: center;
     /* justify-content: center; */
     background-color: #e5e7eb;
+    padding: 90px 200px 70px 200px;
 }
 
 .quote blockquote {
+    margin: 0;
     text-align: left;
-    padding: 90px 250px;
+    
 }
+
+.quote p {
+    margin: 0.5em 2em 0 0 ;
+    margin-right: 2em;
+    align-self: flex-end;
+    text-align: left;
+    font-weight: 900;
+}   
