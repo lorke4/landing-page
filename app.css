@@ -48,7 +48,7 @@ blockquote {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 100px 20px 100px;
+    padding: 20px 100px 20px 120px;
 }
 
 .header-left {
@@ -120,6 +120,7 @@ blockquote {
 .cards img {
     height: 200px;
     width: 200px;
+    margin-bottom: 10px;
 }
 
 .cards {
